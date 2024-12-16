@@ -1,4 +1,5 @@
 #include<graphics.h>
+#include<graphics.h>
 
 void glassFace(){
     //face
@@ -10,7 +11,7 @@ void glassFace(){
     //glass
     circle(165,270,30);
     circle(240,270,30);
-    line(210, 260, 190, 260);
+    arc(203,260,0,180,10);
 
     //mouth
     arc(200, 310, 180, 360, 15);
