@@ -1,10 +1,6 @@
 #include <graphics.h>
-#include <conio.h>
 
-int main(){
-
-    initwindow(500, 500);
-
+void cycle(){
     // back tire
     circle(100, 400, 70);
 
@@ -28,11 +24,15 @@ int main(){
     line(250, 250, 290, 240);
 
     line(60, 250, 120, 250);
+}
 
-
-
+int main() {
+    initwindow(600, 600);
+    setbkcolor(WHITE);
+    cleardevice();
+    setcolor(BLACK);
+    cycle();
     getch();
-
-
+    closegraph();
     return 0;
 }
