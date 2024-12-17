@@ -2,21 +2,18 @@
 
 void drawMicrophone() {
     // upper arc of mic
-    arc(300, 200, 0, 180, 50); // Top arc (centered at 300,200, radius 50)
-    line(250, 200, 350, 200);
+    arc(300, 200, 0, 180, 40); // Top arc (centered at 300,200, radius 50)
+    line(260, 200, 340, 200);
 
     //lower arc of the mic
-    line(250, 220, 350, 220);
-    arc(300, 220, 180, 360, 50);
+    line(260, 220, 340, 220);
+    arc(300, 220, 180, 360, 40);
 
-    //left side arc
-    arc(295, 240, 0, 90, 50);
-    //right side arc
-    //arc(300, 179, 90, 180, 50);
+    arc(300,220,180,350,55);
 
     // Draw the stand
-    line(295, 300, 295, 350); // Vertical stand
-    line(275, 350, 315, 350); // Horizontal base
+    line(300, 275, 300, 320); // Vertical stand
+    line(275, 320, 320, 320); // Horizontal base
 }
 
 int main() {
