@@ -2,10 +2,10 @@
 
 void mobile(){
     //body
-    rectangle(150, 200, 350, 450);
+    rectangle(180, 200, 330, 440);
 
     //display
-    rectangle(180, 220, 320, 330);
+    rectangle(200, 220, 310, 330);
 
     //buttons
     rectangle(210, 340, 225, 355);
@@ -21,10 +21,11 @@ void mobile(){
     rectangle(280, 400, 295, 415);
 
     //antenna
-    line(320, 180, 320, 200);
-    //arc(350, 190, 0, 180, 40);  // First (largest) arc
-    //arc(350, 190, 180, 270, 30);  // Second (smaller) arc
-    //arc(350, 190, 0, 180, 20);
+    line(320, 170, 320, 200);
+    arc(330, 170, 290, 430, 15);
+    arc(320, 170, 290, 430, 15);
+    arc(320, 170, 470, 610, 15);
+    arc(310, 170, 470, 610, 15);
 }
 
 int main(){
